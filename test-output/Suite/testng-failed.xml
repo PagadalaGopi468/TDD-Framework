@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="RegressionSuite"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="myproject.ClickOnRequestTest">
+        <methods>
+          <include name="Close_Database"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="Request"/>
+          <include name="close"/>
+          <include name="launch_Browser"/>
+        </methods>
+      </class> <!-- myproject.ClickOnRequestTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

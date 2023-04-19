@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-13T15:00:47 IST" name="Default suite" finished-at="2023-04-13T15:00:47 IST" duration-ms="43">
+    <groups>
+    </groups>
+    <test started-at="2023-04-13T15:00:47 IST" name="Default test" finished-at="2023-04-13T15:00:47 IST" duration-ms="43">
+      <class name="myproject.DataProviders">
+        <test-method signature="addproductToCart(java.lang.String,int,java.lang.String)[pri:0, instance:myproject.DataProviders@593aaf41]" started-at="2023-04-13T15:00:47 IST" name="addproductToCart" data-provider="phone" finished-at="2023-04-13T15:00:47 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[54788]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aik]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproductToCart -->
+        <test-method signature="addproductToCart(java.lang.String,int,java.lang.String)[pri:0, instance:myproject.DataProviders@593aaf41]" started-at="2023-04-13T15:00:47 IST" name="addproductToCart" data-provider="phone" finished-at="2023-04-13T15:00:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5478]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ag28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addproductToCart -->
+      </class> <!-- myproject.DataProviders -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
