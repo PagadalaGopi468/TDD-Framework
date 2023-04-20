@@ -4,14 +4,14 @@
   <test thread-count="2" parallel="tests" name="Test1">
   <parameter name="browser" value="Chrome"></parameter>
     <classes>
-      <class name="myproject.ClickOnInbox"/>
+      <class name="myproject.ClickOnInboxTest"/>
     </classes>
   </test> <!-- Test -->
   
   <test thread-count="2" parallel="tests" name="Test2">
   <parameter name="browser" value="Edge"></parameter>
     <classes>
-      <class name="myproject.ClickOnRequest"/>
+      <class name="myproject.ClickOnRequestTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
