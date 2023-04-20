@@ -3,13 +3,13 @@
 <suite thread-count="2" parallel="tests" name="Suite">
   <test thread-count="2" parallel="tests" name="Test1">
     <classes>
-      <class name="myproject.ClickOnRequest"/>
+      <class name="myproject.ClickOnRequestTest"/>
     </classes>
   </test> <!-- Test -->
   
   <test thread-count="2" parallel="tests" name="Test2">
     <classes>
-      <class name="myproject.ClickOnInbox"/>
+      <class name="myproject.ClickOnInboxTest"/>
     </classes>
   </test> <!-- Test -->
 
