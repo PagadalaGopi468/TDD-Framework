@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test" preserve-order="false">
     <classes>
-      <class name="myproject.ClickOnRequest"/>
-      <class name="myproject.ClickOnInbox"/>
+      <class name="myproject.ClickOnRequestTest"/>
+      <class name="myproject.ClickOnInboxTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
