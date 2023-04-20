@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="myproject.ClickOnRequest">
+      <class name="myproject.ClickOnInboxTest">
         <methods>
+          <include name="inbox"/>
           <include name="Launch_Database"/>
           <include name="Close_Database"/>
-          <include name="Request"/>
           <include name="login"/>
           <include name="logout"/>
           <include name="close"/>
           <include name="launch_Browser"/>
         </methods>
-      </class> <!-- myproject.ClickOnRequest -->
+      </class> <!-- myproject.ClickOnInboxTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
