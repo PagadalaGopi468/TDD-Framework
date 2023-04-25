@@ -1,5 +1,8 @@
 package GenericUtilities;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import java.time.Duration;
 
 import org.openqa.selenium.Alert;
@@ -29,11 +32,12 @@ import com.beust.jcommander.Parameter;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base_Utility {
-	
-	public static WebDriver driver;
+
+	public WebDriver driver;
+	public static WebDriver sdriver;
 	Data_Utility d=new Data_Utility();
-	
-	
+
+
 	@BeforeSuite(groups = "SmokeSuite")
 	public void Launch_Database()
 	{
@@ -51,13 +55,15 @@ public class Base_Utility {
 			ChromeOptions options=new ChromeOptions();
 			options.addArguments("--disable-notifications");
 			driver=new ChromeDriver(options);
+			sdriver=driver;
 			System.out.println("Chrome launch Successfully....!!!");
 		}
 		else if(Browser.equalsIgnoreCase("Edge"))
 		{
 			//WebDriverManager.edgedriver().setup();
-			//System.setProperty("webdriver.edge.driver", "D:\\Eclipse\\msedgedriver.exe");
+			System.setProperty("webdriver.edge.driver", "D:\\Development TFS Project\\msedgedriver.exe");	
 			driver=new EdgeDriver();
+			sdriver=driver;
 			System.out.println("Edgedriver launch Successfully....!!!");
 		}
 		driver.get(url);
@@ -71,8 +77,19 @@ public class Base_Utility {
 		l.login();
 	}
 	@AfterMethod(groups = {"SmokeSuite","RegressionSuite"})
-	public void logout()
+	public void logout() throws Exception
 	{
+		 Robot r=new Robot();
+		 r.keyPress(KeyEvent.VK_CONTROL);
+	     r.keyPress(KeyEvent.VK_MINUS);
+	     r.keyRelease(KeyEvent.VK_CONTROL);
+	     r.keyRelease(KeyEvent.VK_MINUS);
+	     
+	     r.keyPress(KeyEvent.VK_CONTROL);
+	     r.keyPress(KeyEvent.VK_MINUS);
+	     r.keyRelease(KeyEvent.VK_CONTROL);
+	     r.keyRelease(KeyEvent.VK_MINUS);
+	     
 		HR1_LogOutPage t=new HR1_LogOutPage(driver);
 		t.logout();
 	}
@@ -80,12 +97,12 @@ public class Base_Utility {
 	@AfterClass(groups = {"SmokeSuite","RegressionSuite"})
 	public void close()
 	{
-        driver.quit();
+		driver.quit();
 	}
 	@AfterSuite(groups = {"SmokeSuite","RegressionSuite"})
 	public void Close_Database()
 	{
 		System.out.println("Database is Closed");
 	}
-	
+
 }

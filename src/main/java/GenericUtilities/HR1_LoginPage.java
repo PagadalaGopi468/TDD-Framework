@@ -9,7 +9,7 @@ public class HR1_LoginPage {
 
 	Data_Utility d=new Data_Utility();
 	
-	@FindBy(xpath = "//input[@type='text']")
+	@FindBy(xpath = "//input[@id='hrone-username']")
 	private WebElement username;
 	
 	@FindBy(xpath = "//span[text()=' NEXT ']")
@@ -27,8 +27,11 @@ public class HR1_LoginPage {
 	@FindBy(xpath = "//a[text()='May be Later']")
 	private WebElement laterClick;
 	
-	@FindBy(xpath = "(//i[text()=' clear '])[22]")
-	private WebElement clear;
+//	@FindBy(xpath = "(//i[text()=' clear '])[22]")
+//	private WebElement clear;
+	
+	@FindBy(xpath = "(//em[text()=' clear '])[23]")
+	private WebElement Click;
 	
 	public HR1_LoginPage(WebDriver driver)
 	{
@@ -59,8 +62,11 @@ public class HR1_LoginPage {
 		return laterClick;
 	}
 
-	public WebElement getClear() {
-		return clear;
+//	public WebElement getClear() {
+//		return clear;
+//	}
+	public WebElement getClick() {
+		return Click;
 	}
 	
 	public void login() throws Exception
@@ -72,7 +78,8 @@ public class HR1_LoginPage {
 		button.click();
 		next.click();
 		laterClick.click();
-		clear.click();
+		//clear.click();
+		Click.click();
 	}
 	
 	
