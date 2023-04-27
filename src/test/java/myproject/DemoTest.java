@@ -11,7 +11,7 @@ public class DemoTest extends Base_Utility {
 @Test
 	public void demoTest1()
 	{
-		System.out.println("Demo");
+		System.out.println("Passed");
 		//Assert.fail();
 
 	}

@@ -1,93 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-25T11:38:07 IST" name="Suite" finished-at="2023-04-25T11:38:36 IST" duration-ms="29544">
+  <suite started-at="2023-04-25T12:54:57 IST" name="Suite" finished-at="2023-04-25T12:55:23 IST" duration-ms="26182">
     <groups>
       <group name="SmokeSuite">
         <method signature="ClickOnRequestTest.Request()[pri:0, instance:myproject.ClickOnRequestTest@1ed6388a]" name="Request" class="myproject.ClickOnRequestTest"/>
         <method signature="ClickOnInboxTest.inbox()[pri:0, instance:myproject.ClickOnInboxTest@2a265ea9]" name="inbox" class="myproject.ClickOnInboxTest"/>
       </group> <!-- SmokeSuite -->
     </groups>
-    <test started-at="2023-04-25T11:38:07 IST" name="Test2" finished-at="2023-04-25T11:38:31 IST" duration-ms="23819">
-      <class name="myproject.ClickOnInboxTest">
-        <test-method is-config="true" signature="launch_Browser()[pri:0, instance:myproject.ClickOnInboxTest@2a265ea9]" started-at="2023-04-25T11:38:07 IST" name="launch_Browser" finished-at="2023-04-25T11:38:12 IST" duration-ms="4739" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:myproject.ClickOnInboxTest@2a265ea9]" started-at="2023-04-25T11:38:12 IST" name="login" finished-at="2023-04-25T11:38:25 IST" duration-ms="13466" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="inbox()[pri:0, instance:myproject.ClickOnInboxTest@2a265ea9]" started-at="2023-04-25T11:38:25 IST" name="inbox" finished-at="2023-04-25T11:38:27 IST" duration-ms="1932" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inbox -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:myproject.ClickOnInboxTest@2a265ea9]" started-at="2023-04-25T11:38:27 IST" name="logout" finished-at="2023-04-25T11:38:30 IST" duration-ms="2995" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="close()[pri:0, instance:myproject.ClickOnInboxTest@2a265ea9]" started-at="2023-04-25T11:38:30 IST" name="close" finished-at="2023-04-25T11:38:31 IST" duration-ms="415" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- myproject.ClickOnInboxTest -->
-    </test> <!-- Test2 -->
-    <test started-at="2023-04-25T11:38:07 IST" name="Test3" finished-at="2023-04-25T11:38:33 IST" duration-ms="26470">
-      <class name="myproject.DemoTest">
-        <test-method is-config="true" signature="Launch_Database()[pri:0, instance:myproject.DemoTest@449a4f23]" started-at="2023-04-25T11:38:07 IST" name="Launch_Database" finished-at="2023-04-25T11:38:07 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Launch_Database -->
-        <test-method is-config="true" signature="launch_Browser()[pri:0, instance:myproject.DemoTest@449a4f23]" started-at="2023-04-25T11:38:07 IST" name="launch_Browser" finished-at="2023-04-25T11:38:12 IST" duration-ms="5338" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:myproject.DemoTest@449a4f23]" started-at="2023-04-25T11:38:12 IST" name="login" finished-at="2023-04-25T11:38:26 IST" duration-ms="13670" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="demoTest1()[pri:0, instance:myproject.DemoTest@449a4f23]" started-at="2023-04-25T11:38:26 IST" name="demoTest1" finished-at="2023-04-25T11:38:26 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demoTest1 -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:myproject.DemoTest@449a4f23]" started-at="2023-04-25T11:38:26 IST" name="logout" finished-at="2023-04-25T11:38:33 IST" duration-ms="6959" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="close()[pri:0, instance:myproject.DemoTest@449a4f23]" started-at="2023-04-25T11:38:33 IST" name="close" finished-at="2023-04-25T11:38:33 IST" duration-ms="232" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method is-config="true" signature="Close_Database()[pri:0, instance:myproject.DemoTest@449a4f23]" started-at="2023-04-25T11:38:36 IST" name="Close_Database" finished-at="2023-04-25T11:38:36 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Close_Database -->
-      </class> <!-- myproject.DemoTest -->
-    </test> <!-- Test3 -->
-    <test started-at="2023-04-25T11:38:07 IST" name="Test1" finished-at="2023-04-25T11:38:36 IST" duration-ms="29540">
+    <test started-at="2023-04-25T12:54:57 IST" name="Test1" finished-at="2023-04-25T12:55:20 IST" duration-ms="23018">
       <class name="myproject.ClickOnRequestTest">
-        <test-method is-config="true" signature="launch_Browser()[pri:0, instance:myproject.ClickOnRequestTest@1ed6388a]" started-at="2023-04-25T11:38:07 IST" name="launch_Browser" finished-at="2023-04-25T11:38:12 IST" duration-ms="4690" status="PASS">
+        <test-method is-config="true" signature="launch_Browser()[pri:0, instance:myproject.ClickOnRequestTest@1ed6388a]" started-at="2023-04-25T12:54:57 IST" name="launch_Browser" finished-at="2023-04-25T12:55:01 IST" duration-ms="3743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_Browser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:myproject.ClickOnRequestTest@1ed6388a]" started-at="2023-04-25T11:38:12 IST" name="login" finished-at="2023-04-25T11:38:25 IST" duration-ms="13252" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:myproject.ClickOnRequestTest@1ed6388a]" started-at="2023-04-25T12:55:01 IST" name="login" finished-at="2023-04-25T12:55:12 IST" duration-ms="10674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="Request()[pri:0, instance:myproject.ClickOnRequestTest@1ed6388a]" started-at="2023-04-25T11:38:25 IST" name="Request" finished-at="2023-04-25T11:38:27 IST" duration-ms="1786" status="PASS">
+        <test-method signature="Request()[pri:0, instance:myproject.ClickOnRequestTest@1ed6388a]" started-at="2023-04-25T12:55:12 IST" name="Request" finished-at="2023-04-25T12:55:13 IST" duration-ms="1577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Request -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:myproject.ClickOnRequestTest@1ed6388a]" started-at="2023-04-25T11:38:27 IST" name="logout" finished-at="2023-04-25T11:38:36 IST" duration-ms="9297" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:myproject.ClickOnRequestTest@1ed6388a]" started-at="2023-04-25T12:55:13 IST" name="logout" finished-at="2023-04-25T12:55:20 IST" duration-ms="6416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="close()[pri:0, instance:myproject.ClickOnRequestTest@1ed6388a]" started-at="2023-04-25T11:38:36 IST" name="close" finished-at="2023-04-25T11:38:36 IST" duration-ms="239" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:myproject.ClickOnRequestTest@1ed6388a]" started-at="2023-04-25T12:55:20 IST" name="close" finished-at="2023-04-25T12:55:20 IST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- myproject.ClickOnRequestTest -->
     </test> <!-- Test1 -->
+    <test started-at="2023-04-25T12:54:57 IST" name="Test2" finished-at="2023-04-25T12:55:23 IST" duration-ms="26182">
+      <class name="myproject.ClickOnInboxTest">
+        <test-method is-config="true" signature="Launch_Database()[pri:0, instance:myproject.ClickOnInboxTest@2a265ea9]" started-at="2023-04-25T12:54:57 IST" name="Launch_Database" finished-at="2023-04-25T12:54:57 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_Database -->
+        <test-method is-config="true" signature="launch_Browser()[pri:0, instance:myproject.ClickOnInboxTest@2a265ea9]" started-at="2023-04-25T12:54:57 IST" name="launch_Browser" finished-at="2023-04-25T12:55:00 IST" duration-ms="3369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Browser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:myproject.ClickOnInboxTest@2a265ea9]" started-at="2023-04-25T12:55:00 IST" name="login" finished-at="2023-04-25T12:55:11 IST" duration-ms="10462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="inbox()[pri:0, instance:myproject.ClickOnInboxTest@2a265ea9]" started-at="2023-04-25T12:55:11 IST" name="inbox" finished-at="2023-04-25T12:55:12 IST" duration-ms="1298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbox -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:myproject.ClickOnInboxTest@2a265ea9]" started-at="2023-04-25T12:55:12 IST" name="logout" finished-at="2023-04-25T12:55:23 IST" duration-ms="10848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:myproject.ClickOnInboxTest@2a265ea9]" started-at="2023-04-25T12:55:23 IST" name="close" finished-at="2023-04-25T12:55:23 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="Close_Database()[pri:0, instance:myproject.ClickOnInboxTest@2a265ea9]" started-at="2023-04-25T12:55:23 IST" name="Close_Database" finished-at="2023-04-25T12:55:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Database -->
+      </class> <!-- myproject.ClickOnInboxTest -->
+    </test> <!-- Test2 -->
   </suite> <!-- Suite -->
 </testng-results>
